@@ -2,6 +2,8 @@
 
 > **Operating Systems Laboratory | IIT Patna**
 > **Assignment 5: Process Synchronization**
+> **Student:** Ranveer Gupta
+> **Roll Number:** 2401MC20
 > **Platform:** xv6-riscv
 > **Questions Implemented:** Q1, Q2, Q3
 > **Question 4:** Not included
@@ -26,8 +28,16 @@ The objective is to observe how classical synchronization algorithms behave when
 
 # 2. Repository Map
 
+The submitted archive is:
+
 ```text
-mc20/
+2401MC20_Ranveer_Gupta_Assignment5.zip
+```
+
+Its contents are organized as follows:
+
+```text
+2401MC20_Ranveer_Gupta_Assignment5/
 │
 ├── README.md
 ├── Makefile
@@ -62,8 +72,7 @@ mc20/
     └── Q3/
 ```
 
-The **Q1, Q2 and Q3 directories** contain the corresponding user-space test programs.
-The common user and kernel directories contain the xv6 modifications required to support the implementations.
+The **Q1, Q2 and Q3 directories** contain the corresponding user-space test programs. The common user and kernel directories contain the xv6 modifications required to support the implementations.
 
 ---
 
@@ -119,7 +128,7 @@ Producer
 Consumer
 ```
 
-The implementation also demonstrates why mutual exclusion alone is insufficient for the bounded-buffer problem: **availability of resources must also be synchronized.**
+The implementation demonstrates why mutual exclusion alone is insufficient for the bounded-buffer problem: **availability of resources must also be synchronized.**
 
 ---
 
@@ -176,7 +185,7 @@ defs.h
 
 # 5. Building the System
 
-From the root of the xv6 source tree:
+From the xv6 source tree:
 
 ```bash
 make clean
@@ -279,7 +288,7 @@ Output (Screenshots)/
 └── Q3/
 ```
 
-This keeps the implementation and its corresponding execution evidence separated and makes each question easier to evaluate.
+The screenshots provide execution evidence for the corresponding synchronization programs and keep the implementation files separate from their observed outputs.
 
 ---
 
@@ -322,7 +331,13 @@ Each program can be run independently.
 
 # 11. Repository Notes
 
-This repository intentionally keeps the standard xv6 file organization for kernel and user-space source files. Assignment-specific programs are separated into their respective question directories, while common xv6 modifications are grouped separately.
+This submission keeps the standard xv6 file organization for kernel and user-space source files. Assignment-specific programs are separated into their respective question directories, while common xv6 modifications are grouped separately.
+
+The complete submission is packaged as:
+
+```text
+2401MC20_Ranveer_Gupta_Assignment5.zip
+```
 
 **Question 4 — Dining Philosophers — is omitted from this submission.**
 
